@@ -1,5 +1,9 @@
 {% extends "base.html" %}
+<!--
 {% load crispy_forms_tags %}
+#{% crispy form  form.helper %}
+-->
+
 
 {% block title %}
     Login
@@ -14,7 +18,7 @@
 
         <p>Please login.</p>
 
-        {{ form | crispy }}
+         {{ form|crispy }}
 
         <button type="submit" class="btn btn-success">Sign in</button>
     </form>
