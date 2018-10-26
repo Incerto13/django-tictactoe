@@ -9,7 +9,7 @@
 
     <form method="post" action="{% url 'player_new_invitation' %}">
         {% csrf_token %}
-        {{ form | crispy }}
+        {{ form }}
 
         <button type="submit">Send the invitation</button>
     </form>
