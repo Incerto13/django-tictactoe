@@ -1,0 +1,280 @@
+[
+{
+    "model": "auth.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$ai7nmcazZO1Y$c+AFEktUOwJOlLdi5TFPVe/lWYmcOZAvX3JivdvmULM=",
+        "last_login": "2019-01-14T03:09:18.570Z",
+        "is_superuser": false,
+        "username": "bob",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-10-25T15:44:09.412Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$sbn6kAfNGwFR$BPTWLomTErU6hil5HHZQvsnVdTkol2Hz3qAu2tUFOik=",
+        "last_login": "2019-01-14T04:47:12.157Z",
+        "is_superuser": true,
+        "username": "admin",
+        "first_name": "",
+        "last_name": "",
+        "email": "admin@example.com",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2018-10-25T16:20:10.473Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 3,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$taayzyaZ76Zz$rkZVRfWk17xyPDuJZtpvDI3jMlPHy5oZ43Hqql22xRA=",
+        "last_login": "2019-01-14T04:18:00.814Z",
+        "is_superuser": false,
+        "username": "alice",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-10-25T16:23:37.220Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "auth.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$120000$yXUuWzHxPtEf$dFllGhdadEAfox+eANkKZNOR0/STjV3bnLh08ibfXD8=",
+        "last_login": "2018-10-25T23:54:15.094Z",
+        "is_superuser": false,
+        "username": "jimmy",
+        "first_name": "",
+        "last_name": "",
+        "email": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2018-10-25T23:54:14.802Z",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "gameplay.game",
+    "pk": 1,
+    "fields": {
+        "first_player": [
+            "bob"
+        ],
+        "second_player": [
+            "alice"
+        ],
+        "start_time": "2018-10-26T17:33:17.631Z",
+        "last_active": "2018-10-26T17:37:27.496Z",
+        "status": "L"
+    }
+},
+{
+    "model": "gameplay.game",
+    "pk": 2,
+    "fields": {
+        "first_player": [
+            "alice"
+        ],
+        "second_player": [
+            "bob"
+        ],
+        "start_time": "2018-10-26T17:43:40.019Z",
+        "last_active": "2018-10-26T17:45:18.613Z",
+        "status": "S"
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 1,
+    "fields": {
+        "x": 1,
+        "y": 1,
+        "comment": "",
+        "game": 1,
+        "by_first_player": true
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 2,
+    "fields": {
+        "x": 1,
+        "y": 0,
+        "comment": "",
+        "game": 1,
+        "by_first_player": false
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 3,
+    "fields": {
+        "x": 2,
+        "y": 1,
+        "comment": "",
+        "game": 1,
+        "by_first_player": true
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 4,
+    "fields": {
+        "x": 1,
+        "y": 2,
+        "comment": "",
+        "game": 1,
+        "by_first_player": false
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 5,
+    "fields": {
+        "x": 2,
+        "y": 0,
+        "comment": "",
+        "game": 1,
+        "by_first_player": true
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 6,
+    "fields": {
+        "x": 0,
+        "y": 2,
+        "comment": "",
+        "game": 1,
+        "by_first_player": false
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 7,
+    "fields": {
+        "x": 0,
+        "y": 0,
+        "comment": "",
+        "game": 1,
+        "by_first_player": true
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 8,
+    "fields": {
+        "x": 2,
+        "y": 2,
+        "comment": "",
+        "game": 1,
+        "by_first_player": false
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 9,
+    "fields": {
+        "x": 1,
+        "y": 1,
+        "comment": "",
+        "game": 2,
+        "by_first_player": true
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 10,
+    "fields": {
+        "x": 0,
+        "y": 2,
+        "comment": "",
+        "game": 2,
+        "by_first_player": false
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 11,
+    "fields": {
+        "x": 0,
+        "y": 1,
+        "comment": "",
+        "game": 2,
+        "by_first_player": true
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 12,
+    "fields": {
+        "x": 2,
+        "y": 1,
+        "comment": "",
+        "game": 2,
+        "by_first_player": false
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 13,
+    "fields": {
+        "x": 2,
+        "y": 2,
+        "comment": "",
+        "game": 2,
+        "by_first_player": true
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 14,
+    "fields": {
+        "x": 0,
+        "y": 0,
+        "comment": "",
+        "game": 2,
+        "by_first_player": false
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 15,
+    "fields": {
+        "x": 2,
+        "y": 0,
+        "comment": "",
+        "game": 2,
+        "by_first_player": true
+    }
+},
+{
+    "model": "gameplay.move",
+    "pk": 16,
+    "fields": {
+        "x": 1,
+        "y": 0,
+        "comment": "",
+        "game": 2,
+        "by_first_player": false
+    }
+}
+]
