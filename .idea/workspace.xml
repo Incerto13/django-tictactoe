@@ -3,58 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="c8c5ddb3-736b-4cca-90d4-577e399f7066" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datadump.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameplay/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameplay/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameplay/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameplay/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameplay/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameplay/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameplay/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/gameplay/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player/apps.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player/tests.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/player/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap-theme.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/bootstrap.min.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/css/main.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/tictactoe_board.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/img/tictactoe_board.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/main.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor/jquery-1.11.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/js/vendor/npm.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gameplay/game_detail.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/gameplay/game_list.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/player/accept_invitation_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/player/game_list_snippet.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/player/home.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/player/login_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/player/new_invitation_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/player/signup_form.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/tictactoe/welcome.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/settings.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tictactoe/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/entrypoint.sh" beforeDir="false" afterPath="$PROJECT_DIR$/web/entrypoint.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/static/css/bootstrap.css" beforeDir="false" afterPath="$PROJECT_DIR$/web/static/css/bootstrap.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/web/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/tictactoe/local_settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/tictactoe/local_settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,81 +17,84 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/tictactoe/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-603">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/tictactoe/local_settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+            <state relative-caret-position="108">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="12" selection-start-line="12" selection-end-line="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="216">
+              <caret line="35" selection-start-line="35" selection-end-line="35" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/css/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-27017" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/css/bootstrap.css.map">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/css/bootstrap-theme.min.css">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/gameplay/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="109" column="28" lean-forward="true" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#40#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/gameplay/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
-              <folding>
-                <element signature="e#0#64#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/player/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-25">
-              <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
-              <folding>
-                <element signature="e#0#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/templates/player/game_list_snippet.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="464">
-              <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/player/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="319">
-              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#28#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/web/tictactoe/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
+            <state relative-caret-position="274">
+              <caret line="83" selection-start-line="83" selection-end-line="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/static/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="378">
+              <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/templates/tictactoe/welcome.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -191,9 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/player/templates/base.html" />
-        <option value="$PROJECT_DIR$/templates/tictactoe/welcome.html" />
-        <option value="$PROJECT_DIR$/tictactoe/views.py" />
         <option value="$USER_HOME$/.cache/.fr-6gHx8w/templates/gameplay/game_detail.html" />
         <option value="$PROJECT_DIR$/gameplay/views.py" />
         <option value="$PROJECT_DIR$/gameplay/urls.py" />
@@ -238,10 +190,13 @@
         <option value="$PROJECT_DIR$/templates/player/new_invitation_form.html" />
         <option value="$PROJECT_DIR$/templates/gameplay/game_detail.html" />
         <option value="$PROJECT_DIR$/web/tictactoe/__init__.py" />
-        <option value="$PROJECT_DIR$/web/tictactoe/settings.py" />
         <option value="$PROJECT_DIR$/web/player/views.py" />
         <option value="$PROJECT_DIR$/web/gameplay/models.py" />
+        <option value="$PROJECT_DIR$/web/tictactoe/settings.py" />
         <option value="$PROJECT_DIR$/web/tictactoe/local_settings.py" />
+        <option value="$PROJECT_DIR$/web/static/css/main.css" />
+        <option value="$PROJECT_DIR$/web/static/css/bootstrap.css" />
+        <option value="$PROJECT_DIR$/web/templates/base.html" />
       </list>
     </option>
   </component>
@@ -273,59 +228,100 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="gameplay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="player" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="gameplay" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="tictactoe" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
               <item name="player" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="django-tictactoe" type="b2602c69:ProjectViewProjectNode" />
+              <item name="django-tictactoe" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="tictactoe" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
@@ -430,7 +426,7 @@
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.2877698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49839228" visible="true" weight="0.2086331" />
       <window_info id="Structure" order="1" sideWeight="0.5016077" side_tool="true" weight="0.2739347" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -441,7 +437,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32901832" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32901832" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.35313174" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32901832" />
       <window_info anchor="bottom" id="Python Console" order="10" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -473,67 +469,10 @@
     </layout-to-restore>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/static/img/home-bg.jpg" />
-    <entry file="file://$PROJECT_DIR$/templates/player/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="687">
-          <caret line="45" column="14" lean-forward="true" selection-start-line="45" selection-start-column="14" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/static/css/clean-blog.min.css" />
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/templates/blog/post_list.html" />
-    <entry file="file://$PROJECT_DIR$/player/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/static/css/clean-blog.css" />
-    <entry file="file://$PROJECT_DIR$/player/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="174">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/blog/models.py" />
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/db.sqlite3" />
-    <entry file="file://$PROJECT_DIR$/player/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="29">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="57" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/templates/blog/index.html" />
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/blog/forms.py" />
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/templates/blog/about.html" />
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/blogwebsite/settings.py" />
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/sendmail/forms.py" />
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/blogwebsite/urls.py" />
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/blog/urls.py" />
-    <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/sendmail/urls.py" />
     <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/blog/views.py" />
     <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/sendmail/views.py" />
     <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/templates/base.html" />
-    <entry file="file://$PROJECT_DIR$/tictactoe/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="41" />
-          <folding>
-            <element signature="e#633#674#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/urls.py" />
     <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/templates/sendmail/email.html" />
     <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/static/img/login-bg.jpg" />
     <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/templates/registration/login.html" />
@@ -541,102 +480,18 @@
     <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/templates/blog/drafts.html" />
     <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/templates/blog/post_edit.html" />
     <entry file="file://$PROJECT_DIR$/../Portfolio/affordable_tax/templates/sendmail/success.html" />
-    <entry file="file://$PROJECT_DIR$/tictactoe/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3277">
-          <caret line="113" selection-start-line="113" selection-end-line="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameplay/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#64#0" expanded="true" />
-            <marker date="1536365249488" expanded="true" signature="319:1144" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gameplay/game_detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1653">
-          <caret line="57" column="24" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/player/game_list_snippet.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/player/accept_invitation_form.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameplay/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/gameplay/game_list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gameplay/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="3" column="24" lean-forward="true" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/player/new_invitation_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="22" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/player/signup_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="21" column="23" lean-forward="true" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/player/login_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tictactoe/local_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3712">
-          <caret line="128" column="23" selection-start-line="128" selection-start-column="23" selection-end-line="128" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/tictactoe/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/tictactoe/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="81" column="9" lean-forward="true" selection-start-line="81" selection-start-column="9" selection-end-line="81" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/tictactoe/settings.py" />
+    <entry file="file://$PROJECT_DIR$/gameplay/views.py" />
+    <entry file="file://$PROJECT_DIR$/templates/gameplay/game_detail.html" />
+    <entry file="file://$PROJECT_DIR$/templates/player/game_list_snippet.html" />
+    <entry file="file://$PROJECT_DIR$/templates/player/accept_invitation_form.html" />
+    <entry file="file://$PROJECT_DIR$/gameplay/models.py" />
+    <entry file="file://$PROJECT_DIR$/templates/gameplay/game_list.html" />
+    <entry file="file://$PROJECT_DIR$/gameplay/forms.py" />
+    <entry file="file://$PROJECT_DIR$/templates/player/new_invitation_form.html" />
+    <entry file="file://$PROJECT_DIR$/templates/player/signup_form.html" />
+    <entry file="file://$PROJECT_DIR$/templates/player/login_form.html" />
+    <entry file="file://$PROJECT_DIR$/tictactoe/local_settings.py" />
     <entry file="file://$PROJECT_DIR$/web/templates/gameplay/game_detail.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
@@ -651,24 +506,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/templates/player/game_list_snippet.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="464">
-          <caret line="16" column="31" lean-forward="true" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/tictactoe/local_settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/web/tictactoe/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/gameplay/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret lean-forward="true" />
           <folding>
             <element signature="e#0#64#0" expanded="true" />
           </folding>
@@ -677,18 +520,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/player/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-25">
-          <caret line="32" column="23" lean-forward="true" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        <state relative-caret-position="315">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
           <folding>
             <element signature="e#0#51#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/player/game_list_snippet.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="31" selection-start-line="16" selection-start-column="31" selection-end-line="16" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/web/player/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="319">
-          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="135">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
           </folding>
@@ -697,11 +547,109 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/gameplay/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="109" column="28" lean-forward="true" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/manage.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/entrypoint.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/gameplay/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/player/apps.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-18" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/player/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-8" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/player/login_form.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/player/home.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/player/admin.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/img/tictactoe_board.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/tictactoe/welcome.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="16" column="15" lean-forward="true" selection-start-line="16" selection-start-column="15" selection-end-line="16" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-603">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tictactoe/local_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-27017" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/bootstrap.css.map">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/bootstrap-theme.min.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="12" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="14" column="6" lean-forward="true" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/static/img/hamburger-nav.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/templates/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
           <folding>
-            <element signature="e#0#40#0" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/tictactoe/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="83" selection-start-line="83" selection-end-line="83" />
         </state>
       </provider>
     </entry>
