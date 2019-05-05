@@ -4,6 +4,7 @@ services:
     web:
 
         build: ./web
+        env_file: ./web/app.env
         volumes:
         - ./web:/usr/src/app
         - /static:/static
@@ -16,16 +17,16 @@ services:
 
 
     postgres:
-
         build: ./postgres
+        env_file: ./web/app.env
         restart: unless-stopped
         expose:
             - "5432"
         environment:   # will be used by the init script
             LC_ALL: C.UTF-8
-            POSTGRES_USER: django
-            POSTGRES_PASSWORD: pwordyaezz
-            POSTGRES_DB: tictactoe
+            POSTGRES_USER: "${POSTGRES_USER}"
+            POSTGRES_PASSWORD: "${POSTGRES_PASSWORD}"
+            POSTGRES_DB: "${POSTGRES_DB}"
         volumes:
             - pgdata:/var/lib/postgresql/data/  # persist container's db data to local pgdata/ (mounted)
 
@@ -39,7 +40,7 @@ services:
             - redisdata:/data
 
     nginx:
-        restart: always
+        restart: unless-stopped
         build: ./nginx/
         ports:
           - "8002:82"

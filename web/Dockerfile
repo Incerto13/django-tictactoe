@@ -4,6 +4,7 @@ RUN mkdir -p /usr/src/app
 
 RUN mkdir -p /static
 RUN chown -R root /static
+ENV DJANGO_ENV production
 
 COPY ./entrypoint.sh /
 

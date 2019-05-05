@@ -20,10 +20,14 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/2.1/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-
+SECRET_KEY = os.environ['DJANGO_SECRET_KEY']
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+if os.environ['DJANGO_ENV'] == 'production':
+    DEBUG = False
+else:
+    DEBUG = True
+
 
 ALLOWED_HOSTS = ['localhost', '.incertotech.com', '35.175.177.130']
 
@@ -74,12 +78,14 @@ WSGI_APPLICATION = 'tictactoe.wsgi.application'
 
 
 DATABASES = {
+
     'postgresql': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'tictactoe',
-        'USER': 'django',
-        'HOST': 'postgres',
-        #'PORT': 5432,
+        'NAME': os.environ['POSTGRES_DB'],
+        'USER': os.environ['POSTGRES_USER'],
+        'PASSWORD': os.environ['POSTGRES_PASSWORD'],
+        'HOST': os.environ['DB_HOST'],
+        'PORT': 5432,
     }
 }
 
@@ -131,10 +137,3 @@ LOGOUT_REDIRECT_URL = "tictactoe_welcome"
 LOGIN_URL = "player_login"
 
 CRISPY_TEMPLATE_PACK='bootstrap3'
-
-
-
-try:
-    from .local_settings import *
-except ImportError:
-    raise Exception("A local_settings.py file is required to run this project")
