@@ -29,7 +29,7 @@ else:
     DEBUG = True
 
 
-ALLOWED_HOSTS = ['localhost', '.incertotech.com', '35.175.177.130']
+ALLOWED_HOSTS = ['localhost', '.incertotech.com', '54.80.224.201']
 
 
 # Application definition
