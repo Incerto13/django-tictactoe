@@ -1,9 +1,10 @@
 version: '2'
+
 services:
 
     web:
-
         build: ./web
+        restart: unless-stopped
         env_file: ./web/app.env
         volumes:
         - ./web:/usr/src/app
@@ -15,7 +16,6 @@ services:
           - "8002"
         command: gunicorn tictactoe.wsgi -b 0.0.0.0:8002
 
-
     postgres:
         build: ./postgres
         env_file: ./web/app.env
@@ -25,8 +25,7 @@ services:
         environment:   # will be used by the init script
             LC_ALL: C.UTF-8
         volumes:
-            - pgdata:/var/lib/postgresql/data/  # persist container's db data to local pgdata/ (mounted)
-
+          - ./postgres/data:/var/lib/postgresql/data/  # persist container's db data to local pgdata/ (mounted)
 
     redis:
         image: sickp/alpine-redis:3.2.2
@@ -34,21 +33,21 @@ services:
         expose:
             - "6379"
         volumes:
-            - redisdata:/data
+          - redisdata:/data
 
     nginx:
         restart: unless-stopped
         build: ./nginx/
         ports:
-          - "8002:82"
+          - "8002:80"
         volumes:
           - /static:/static
         links:
           - web
 
 volumes:
-  pgdata:
   redisdata:
+
 
 
 

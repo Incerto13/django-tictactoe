@@ -1,10 +1,17 @@
 #!/bin/sh
 
-psql -U postgres -c "CREATE USER django PASSWORD 'pwordyaezz'"
-psql -U postgres -c "CREATE DATABASE tictactoe OWNER django"
-psql -U postgres -c "GRANT ALL PRIVILEGES ON DATABASE tictactoe TO django"
 
-##### None of this below should be here, just for reference
+export PGUSER=$POSTGRES_USER
+export PGDATABASE=$POSTGRES_DB
+export PGPASSWORD=$POSTGRES_PASSWORD
+
+psql -U postgres -c "CREATE USER $PGUSER PASSWORD '$PGPASSWORD'"
+psql -U postgres -c "CREATE DATABASE $PGDATABASE OWNER $PGUSER"
+psql -U postgres -c "GRANT ALL PRIVILEGES ON DATABASE $PGDATABASE TO $PGUSER"
+
+
+##### None of this BELOW should be here, just for reference, datadump isn't even in this directory
+# and this containder doesn't have python
 
 # import initial data to database
 # echo "Importing initial dbase data"
